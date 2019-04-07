@@ -159,7 +159,10 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+		border-bottom-color: transparent;
+  	text-decoration: none;
+	  text-decoration: underline;
+		color: black;
 		}
 
 	strong, b {
@@ -1214,7 +1217,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				/* padding: 3rem 2rem; */
+				padding: 3rem 2rem;
 			}
 
 		}
