@@ -1384,10 +1384,14 @@ input, select, textarea {
 			display: block;
 			position: absolute;
 			top: 0;
-			left: calc(50% - 1px);
+			/* left: calc(50% - 1px); */
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
+		}
+
+		#RightBorderFix{
+			border-right: 1px solid white;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1498,7 +1502,7 @@ input, select, textarea {
 							width: 100%;
 						}
 
-				#header nav.use-middle:after {
+				#li a {
 					display: none;
 				}
 
